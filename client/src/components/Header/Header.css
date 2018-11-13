@@ -1,0 +1,49 @@
+.Header {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  margin: 0 auto;
+  max-width: inherit;
+  background-color: var(--color-white);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.09);
+}
+
+.header-wrapper {
+  flex: none;
+  height: 60px;
+  margin: 0 auto;
+  max-width: 1180px;
+  padding-left: 4vmin;
+  padding-right: 4vmin;
+}
+
+.evox-title-wrapper {
+  line-height: 0.8em;
+}
+
+.evox-title {
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
+}
+
+.evox-title_subtitle {
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+  margin-left: 2.05em;
+}
+
+.header-nav-link-list {
+  width: 400px;
+}
+
+.header-nav-link-list:hover .header-nav-link:not(:hover) {
+  opacity: 0.5;
+}
+
+.header-nav-link {
+  letter-spacing: 1.6px;
+  font-weight: 600;
+  font-size: 1em;
+  transition: opacity 0.2s;
+}

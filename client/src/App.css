@@ -1,0 +1,160 @@
+:root {
+  --color-brand_primary: #fc942c;
+  --color-brand_secondary: #ffcfa2;
+  --color-background-drkblue: #0d1829;
+  --color-background-lgtgrey: #f5f4f9;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-text-body: #0c0c0c;
+  --flex-responsive: column;
+}
+
+body {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  line-height: 1.45;
+  color: var(--color-text-body);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#home {
+  background: var(--color-background-drkblue);
+}
+
+#home #root {
+  background-color: var(--color-white);
+  overflow: hidden;
+  position: relative;
+}
+
+#home #root,
+#home .Footer {
+  max-width: 1620px;
+  margin: 0 auto;
+}
+
+/* Helper classes */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-responsive {
+  flex-direction: var(--flex-responsive);
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.small-caps {
+  font-variant-caps: all-small-caps;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.max-width-100 {
+  max-width: 100%;
+}
+
+.text-muted {
+  opacity: 0.5;
+}
+
+.text-white {
+  color: var(--color-white);
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.scale-x2 {
+  /* transform: scale(2) translate(-2.2em, -2.2em); */
+  transform: scale(2);
+}
+
+.bg-black {
+  background-color: var(--color-black);
+}
+
+.bg-white {
+  background-color: var(--color-white);
+}
+
+.title-wrapper {
+  margin-top: 2em;
+  letter-spacing: -0.1em;
+}
+
+.subtitle {
+  position: absolute;
+  margin-top: -1em;
+}
+
+/* Containers */
+.container {
+  position: relative;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 4vmin;
+}
+
+.hero .img-container {
+  max-width: 40em;
+}
+
+/* Buttons */
+.btn {
+  white-space: nowrap;
+  font-size: 0.8em;
+  letter-spacing: 0.5px;
+}
+
+.btn-br {
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.btn-shadow {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Media Queries */
+@media (min-width: 24em) {
+  .App {
+    max-width: 1620px;
+  }
+}

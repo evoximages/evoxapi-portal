@@ -1,0 +1,17 @@
+.tagline-wrapper {
+  margin-bottom: 2em;
+}
+
+.tagline {
+margin-top: -0.5em;
+}
+
+.btn-signup, 
+.btn-sales {
+  padding: 0.6em 1em;
+}
+
+.call-to-action-wrapper > .btn-signup,  
+.call-to-action-wrapper > .btn-sales {
+  margin: 0.4em;
+}
