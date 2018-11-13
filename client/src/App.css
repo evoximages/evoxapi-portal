@@ -106,6 +106,10 @@ body {
   transform: scale(2);
 }
 
+.bg-primary {
+  background-color: var(--color-brand_primary);
+}
+
 .bg-black {
   background-color: var(--color-black);
 }
