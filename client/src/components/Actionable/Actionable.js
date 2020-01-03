@@ -11,9 +11,10 @@ const Actionable = () => {
         </h4>
       </div>
       <div className="call-to-action-wrapper flex flex-responsive justify-between">
+        <input type="email" placeholder="Email address" />
         <span className="btn-signup btn-br bg-primary text-white upper btn-shadow">
           <a className="btn" href="/signup">
-            Get started
+            Get API Key
           </a>
         </span>
         {/* <span className="btn-sales btn-br bg-white upper btn-shadow">
